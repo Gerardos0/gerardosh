@@ -36,13 +36,6 @@ Designed as a learning exercise in systems programming, it demonstrates core OS 
 - **Dependencies**: Standard C library, GNU Make
 - **Tested On**: Linux (WSL/macOS should work)
 
-## Learning Outcomes
-
-    Deepened understanding of Unix process management
-
-    Practical experience with file descriptors and system calls
-
-    Modular software design in C
 
 ## Build & Run
 ```sh
@@ -51,3 +44,9 @@ cd gerardosh
 make
 ./gerardosh
 
+```
+
+## Learning Outcomes
+- Deepened understanding of Unix process management
+- Practical experience with file descriptors and system calls
+- Modular software design in C
