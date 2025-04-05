@@ -9,10 +9,9 @@ This project implements a minimal Unix-style shell capable of:
 - Supporting pipelines (`cmd1 | cmd2`)
 - Redirecting input/output (`>`, `<`)
 
-Designed as a learning exercise in systems programming, it demonstrates core OS concepts such as process control (`fork`, `exec`, `wait`) and file descriptor management.
+Designed as a learning exercise to put OS concepts into practice. The concept I was learning was process controls such as (`fork`, `exec`, `wait`) and file descriptor management.
 
-## Key Features
-### Command Parsing
+## Features
 - Tokenizes input into executable commands
 - Handles quoted arguments and whitespace
 
@@ -21,7 +20,7 @@ Designed as a learning exercise in systems programming, it demonstrates core OS 
 - Implements `wait()` for process synchronization
 
 ### Pipelines
-- Supports multi-stage commands (`ls | grep .c | wc -l`)
+- Supports multiple commands like (`ls | grep .c | wc -l`)
 - Uses Unix pipes (`pipe()`) and file descriptor redirection
 
 ### I/O Redirection
@@ -32,9 +31,9 @@ Designed as a learning exercise in systems programming, it demonstrates core OS 
 - `exit` (shell termination)
 
 ## Technical Details
-- **Language**: C (POSIX-compliant)
+- **Language**: C 
 - **Dependencies**: Standard C library, GNU Make
-- **Tested On**: Linux (WSL/macOS should work)
+- **Tested On**: Linux (Ubuntu)
 
 
 ## Build & Run
@@ -46,7 +45,7 @@ make
 
 ```
 
-## Learning Outcomes
+## My Learning Outcomes
 - Deepened understanding of Unix process management
-- Practical experience with file descriptors and system calls
-- Modular software design in C
+- Experience with file descriptors and system calls
+- C package organization
