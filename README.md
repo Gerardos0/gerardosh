@@ -1,4 +1,4 @@
-<h>Gerardosh - A Custom Unix Shell Implementation<h\>
+<h>Gerardosh - A Custom Unix Shell Implementation<h/>
 
 A lightweight Unix shell written in C, supporting basic command execution, pipelines, and I/O redirection.
 Project Overview
