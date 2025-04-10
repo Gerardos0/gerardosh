@@ -1,6 +1,6 @@
 # Gerardosh - A Custom Unix Shell Implementation
 
-A lightweight Unix shell written in C, supporting basic command execution, pipelines, and I/O redirection.
+A Unix shell written in C, supporting basic command execution, pipelines, and I/O redirection.
 
 ## Project Overview
 This project implements a minimal Unix-style shell capable of:
